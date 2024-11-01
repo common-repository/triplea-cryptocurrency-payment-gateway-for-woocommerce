@@ -1,0 +1,52 @@
+<?php return array(
+    'root' => array(
+        'pretty_version' => 'dev-master',
+        'version' => 'dev-master',
+        'type' => 'wordpress-plugin',
+        'install_path' => __DIR__ . '/../../',
+        'aliases' => array(),
+        'reference' => '8550f0acc8acf0255c06a9132b601e17f3b4b317',
+        'name' => 'triplea/wc-triplea-crypto-payment',
+        'dev' => true,
+    ),
+    'versions' => array(
+        'appsero/client' => array(
+            'pretty_version' => 'dev-develop',
+            'version' => 'dev-develop',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../appsero/client',
+            'aliases' => array(
+                0 => '9999999-dev',
+            ),
+            'reference' => '169978e17a1aa765fc12fb008569c3e1e8740002',
+            'dev_requirement' => false,
+        ),
+        'paragonie/random_compat' => array(
+            'pretty_version' => 'v2.0.21',
+            'version' => '2.0.21.0',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../paragonie/random_compat',
+            'aliases' => array(),
+            'reference' => '96c132c7f2f7bc3230723b66e89f8f150b29d5ae',
+            'dev_requirement' => false,
+        ),
+        'paragonie/sodium_compat' => array(
+            'pretty_version' => 'v1.19.0',
+            'version' => '1.19.0.0',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../paragonie/sodium_compat',
+            'aliases' => array(),
+            'reference' => 'cb15e403ecbe6a6cc515f855c310eb6b1872a933',
+            'dev_requirement' => false,
+        ),
+        'triplea/wc-triplea-crypto-payment' => array(
+            'pretty_version' => 'dev-master',
+            'version' => 'dev-master',
+            'type' => 'wordpress-plugin',
+            'install_path' => __DIR__ . '/../../',
+            'aliases' => array(),
+            'reference' => '8550f0acc8acf0255c06a9132b601e17f3b4b317',
+            'dev_requirement' => false,
+        ),
+    ),
+);

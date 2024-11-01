@@ -1,0 +1,24 @@
+{
+    "name": "triplea/wc-triplea-crypto-payment",
+    "description": "Offer cryptocurrency as a payment option on your website and get access to even more clients. Receive payments in cryptocurrency or in your local currency, directly in your bank account. Enjoy an easy setup, no cryptocurrency expertise required. Powered by TripleA.",
+    "type": "wordpress-plugin",
+    "license": "GPLv2",
+    "authors": [
+        {
+            "name": "TripleA"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Triplea\\WcTripleaCryptoPayment\\": "includes/"
+        }
+    },
+    "minimum-stability": "dev",
+    "require": {
+        "appsero/client": "dev-develop",
+        "paragonie/sodium_compat": "^1.10",
+        "paragonie/random_compat": ">=2 <9.99",
+        "ext-json": "*",
+        "ext-openssl": "^8.0"
+    }
+}

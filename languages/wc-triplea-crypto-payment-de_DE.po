@@ -1,0 +1,302 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Crypto Payment Gateway for WooCommerce\n"
+"POT-Creation-Date: 2022-11-01 19:44+0600\n"
+"PO-Revision-Date: 2022-11-09 04:26+0000\n"
+"Last-Translator: \n"
+"Language-Team: German\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: triplea-cryptocurrency-payment-gateway-for-woocommerce."
+"php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.min.js\n"
+"X-Poedit-SearchPathExcluded-1: vendor\n"
+"Report-Msgid-Bugs-To: \n"
+"Language: de_DE\n"
+"X-Loco-Version: 2.6.3; wp-6.0.3"
+
+#. translators: 1: Plugin name 2: WC title & installation link 3: WCS title & installation link
+#: includes/Admin_Notice.php:18
+#, php-format
+msgid ""
+"%1$s requires %2$s & %3$s to be installed and activated to function properly."
+msgstr ""
+"%1$s erfordert, dass %2$s & %3$s installiert und aktiviert sind, um richtig "
+"zu funktionieren."
+
+#: includes/WooCommerce/views/triplea_options.php:48
+msgid "Account"
+msgstr "Konto"
+
+#: includes/WooCommerce/views/triplea_options.php:52
+msgid "Account Verification"
+msgstr "Kontoüberprüfung"
+
+#: includes/WooCommerce/views/triplea_options.php:129
+msgid "Add Text (Optional)"
+msgstr "Text hinzufügen (optional)"
+
+#: includes/WooCommerce/views/triplea_options.php:158
+msgid ""
+"All businesses are required to go through our business verification process "
+"before accepting crypto payments."
+msgstr ""
+"Alle Unternehmen müssen unseren Geschäftsverifizierungsprozess durchlaufen, "
+"bevor sie Kryptozahlungen akzeptieren."
+
+#: includes/WooCommerce/TripleA_Payment_Gateway.php:329
+msgid "Bad attempt, invalid nonce for checkout_start"
+msgstr "Schlechter Versuch, ungültige Nonce für checkout_start"
+
+#: includes/WooCommerce/TripleA_Payment_Gateway.php:391
+msgid "Bad attempt, invalid nonce for payment form data request"
+msgstr "Schlechter Versuch, ungültige Nonce für Zahlungsformular-Datenanfrage"
+
+#: includes/WooCommerce/views/triplea_options.php:59
+msgid "Can't find it?"
+msgstr "Du kannst es nicht finden?"
+
+#: includes/WooCommerce/views/triplea_options.php:60
+msgid "Click this page"
+msgstr "Diese Seite anklicken"
+
+#: includes/WooCommerce/views/triplea_options.php:76
+msgid "Client ID"
+msgstr "Kunden-ID"
+
+#: includes/WooCommerce/views/triplea_options.php:80
+msgid "Client Secret"
+msgstr "Kunde Geheimnis"
+
+#: triplea-cryptocurrency-payment-gateway-for-woocommerce.php:152
+msgid "Configure"
+msgstr "Konfigurieren Sie"
+
+#. Plugin Name of the plugin/theme
+#: includes/Admin_Notice.php:19
+msgid "Crypto Payment Gateway for WooCommerce"
+msgstr "Krypto Payment Gateway für WooCommerce"
+
+#: includes/WooCommerce/TripleA_Payment_Gateway.php:242
+msgid "Cryptocurrency"
+msgstr "Kryptowährung"
+
+#: includes/WooCommerce/TripleA_Payment_Gateway.php:32
+#: includes/WooCommerce/TripleA_Payment_Gateway.php:33
+msgid "Cryptocurrency Payment Gateway"
+msgstr "Cryptocurrency Payment Gateway"
+
+#: includes/WooCommerce/views/triplea_options.php:121
+msgid "Customize the way your checkout page looks"
+msgstr "Passe das Aussehen deiner Kassenseite an"
+
+#: includes/WooCommerce/views/triplea_options.php:50
+msgid "Design"
+msgstr "Entwurf"
+
+#: includes/WooCommerce/views/triplea_options.php:111
+msgid "Enable Debug Log"
+msgstr "Debug Log einschalten"
+
+#: includes/WooCommerce/views/triplea_options.php:101
+msgid "Enable Test Mode"
+msgstr "Testmodus aktivieren"
+
+#: includes/WooCommerce/views/triplea_options.php:112
+msgid ""
+"Enable this option to log sensitive & important information when support is "
+"needed!"
+msgstr ""
+"Aktiviere diese Option, um sensible und wichtige Informationen zu "
+"protokollieren, wenn Unterstützung benötigt wird!"
+
+#: includes/WooCommerce/views/triplea_options.php:92
+msgid "Enable TripleA Cryptocurrency Payments"
+msgstr "TripleA Cryptocurrency-Zahlungen aktivieren"
+
+#: includes/Reviews.php:54
+msgid "Enjoying Crypto Payment Gateway for WooCommerce?"
+msgstr "Gefällt dir das Crypto Payment Gateway für WooCommerce?"
+
+#: includes/WooCommerce/views/triplea_options.php:58
+msgid ""
+"Fill in the form below with the information you received via email after "
+"creating your TripleA account."
+msgstr ""
+"Fülle das folgende Formular mit den Informationen aus, die du nach der "
+"Erstellung deines TripleA-Kontos per E-Mail erhalten hast."
+
+#: includes/WooCommerce/views/triplea_options.php:61
+msgid ""
+"for more information on where to find your Merchant Key, Client ID and "
+"Client Secret."
+msgstr ""
+"für weitere Informationen darüber, wo du deinen Händlerschlüssel, deine "
+"Kunden-ID und dein Kundengeheimnis findest."
+
+#: includes/WooCommerce/views/triplea_options.php:161
+msgid "here"
+msgstr "hier"
+
+#: includes/WooCommerce/views/triplea_options.php:63
+msgid "here!"
+msgstr "hier!"
+
+#. Author URI of the plugin/theme
+msgid "https://triple-a.io"
+msgstr "https://triple-a.io"
+
+#. Plugin URI of the plugin/theme
+msgid ""
+"https://wordpress.org/plugins/triplea-cryptocurrency-payment-gateway-for-"
+"woocommerce/"
+msgstr ""
+"https://wordpress.org/plugins/triplea-cryptocurrency-payment-gateway-for-"
+"woocommerce/"
+
+#: includes/WooCommerce/views/triplea_options.php:62
+msgid "If you don't have a TripleA account yet, sign up for one"
+msgstr "Wenn du noch kein TripleA-Konto hast, melde dich an"
+
+#: includes/WooCommerce/views/triplea_options.php:160
+msgid "Kindly send the documents listed"
+msgstr "Bitte senden Sie die aufgeführten Dokumente"
+
+#: includes/WooCommerce/views/triplea_options.php:72
+msgid "Merchant Key"
+msgstr "Händlerschlüssel"
+
+#: includes/WooCommerce/views/triplea_options.php:126
+msgid "No Logo"
+msgstr "Kein Logo"
+
+#. Description of the plugin/theme
+msgid ""
+"Offer cryptocurrency as a payment option on your website and get access to "
+"even more clients. Receive payments in cryptocurrency or in your local "
+"currency, directly in your bank account. Enjoy an easy setup, no "
+"cryptocurrency expertise required. Powered by TripleA."
+msgstr ""
+"Biete Kryptowährung als Zahlungsoption auf deiner Website an und erhalte "
+"Zugang zu noch mehr Kunden. Erhalte Zahlungen in Kryptowährung oder in "
+"deiner Landeswährung direkt auf dein Bankkonto. Genieße eine einfache "
+"Einrichtung, für die keine Kryptowährungskenntnisse erforderlich sind. "
+"Powered by TripleA."
+
+#: includes/WooCommerce/views/triplea_options.php:102
+msgid "Only TestBTC will be available on checkout page!"
+msgstr "Nur TestBTC wird auf der Kassenseite verfügbar sein!"
+
+#: includes/WooCommerce/views/triplea_options.php:51
+msgid "Order Status"
+msgstr "Status der Bestellung"
+
+#: includes/WooCommerce/TripleA_Payment_Gateway.php:1196
+msgid ""
+"Order will be marked as invalid, you may choose to refund the customer "
+"through your TripleA dashboard."
+msgstr ""
+"Die Bestellung wird als ungültig markiert. Du kannst dem Kunden über dein "
+"TripleA-Dashboard eine Rückerstattung gewähren."
+
+#: includes/WooCommerce/TripleA_Payment_Gateway.php:298
+msgid "Pay with Cryptocurrency"
+msgstr "Bezahlen mit Kryptowährungen"
+
+#: includes/WooCommerce/TripleA_Payment_Gateway.php:1204
+msgid "Payment Failed"
+msgstr "Zahlung fehlgeschlagen"
+
+#: includes/WooCommerce/TripleA_Payment_Gateway.php:89
+msgid "Payment mode"
+msgstr "Zahlungsmodus"
+
+#: includes/WooCommerce/TripleA_Payment_Gateway.php:299
+msgid ""
+"Please pay the exact amount. Avoid paying from a crypto exchange, use your "
+"personal wallet."
+msgstr ""
+"Bitte zahle den genauen Betrag. Vermeide es, über eine Krypto-Börse zu "
+"bezahlen, sondern verwende dein persönliches Portemonnaie."
+
+#: includes/WooCommerce/views/triplea_options.php:168
+msgid "Save Changes"
+msgstr "Änderungen speichern"
+
+#: includes/WooCommerce/TripleA_Payment_Gateway.php:34
+#: includes/WooCommerce/TripleA_Payment_Gateway.php:35
+msgid ""
+"Secure and easy payment with Cryptocurrency using the Triple-A.io service."
+msgstr ""
+"Sicheres und einfaches Bezahlen mit Cryptocurrency über den Triple-A.io "
+"Service."
+
+#: includes/WooCommerce/views/triplea_options.php:124
+msgid "Select Image to load on checkout page"
+msgstr "Bild zum Laden auf der Kassenseite auswählen"
+
+#: includes/WooCommerce/views/triplea_options.php:49
+msgid "Settings"
+msgstr "Einstellungen"
+
+#: includes/WooCommerce/TripleA_Payment_Gateway.php:1195
+msgid ""
+"Shopping cart contents were modified between the moment the cryptocurrency "
+"payment form was displayed and the moment the cryptocurrency payment was "
+"made."
+msgstr ""
+"Der Inhalt des Warenkorbs wurde zwischen der Anzeige des Kryptowährungs-"
+"Zahlungsformulars und der Durchführung der Kryptowährungszahlung geändert."
+
+#: includes/Reviews.php:55
+msgid ""
+"Thank you for choosing Crypto Payment Gateway for WooCommerce. If you have "
+"found our plugin useful and makes you smile, please consider giving us a 5-"
+"star rating on WordPress.org. It would mean the world to us."
+msgstr ""
+"Vielen Dank, dass du dich für Crypto Payment Gateway for WooCommerce "
+"entschieden hast. Wenn du unser Plugin nützlich findest und es dir gefällt, "
+"dann gib uns doch bitte eine 5-Sterne-Bewertung auf WordPress.org. Das würde "
+"uns die Welt bedeuten."
+
+#: includes/WooCommerce/views/triplea_options.php:162
+msgid "to"
+msgstr "zu"
+
+#. Author of the plugin/theme
+msgid "TripleA Team"
+msgstr "TripleA Team"
+
+#: includes/WooCommerce/views/triplea_options.php:169
+msgid "Verify Your Account"
+msgstr "Überprüfe dein Konto"
+
+#: includes/Admin_Notice.php:13
+msgid "WooCommerce"
+msgstr "WooCommerce"
+
+#: includes/Reviews.php:56
+msgid "👍 Yes, You Deserve It!"
+msgstr "👍 Ja, du verdienst es!"
+
+#: includes/Reviews.php:59
+msgid "💔 No Thanks"
+msgstr "💔 Nein danke"
+
+#: includes/Reviews.php:58
+msgid "🔔 Remind Me Later"
+msgstr "🔔 Erinnere mich später"
+
+#: includes/Reviews.php:57
+msgid "🙌 Already Rated!"
+msgstr "🙌 Bereits bewertet!"

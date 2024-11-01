@@ -1,0 +1,56 @@
+:root{
+    --tripleaColor: #095693;
+    --pureWhite: #fff;
+    --white: #e8e9ed;
+    --gray: #434257;
+    --blue: #18172c;
+    --green: #00d084;
+    --pink: #ff4b77;
+}
+
+#payment_method_triplea_payment_gateway + label {
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    align-items: center;
+}
+
+#payment_method_triplea_payment_gateway + label:before {
+    margin-top: -5px;
+}
+
+#triplea_embedded_payment_form_btn {
+    background-color: var(--tripleaColor);
+    color: var(--pureWhite);
+    font-weight: 500;
+    border: 1px solid var(--tripleaColor);
+    margin: 20px auto !important;
+}
+
+#triplea_embedded_payment_form_btn:hover {
+    background-color: var(--pureWhite);
+    color: var(--tripleaColor);
+    transform: scale(1.1, 1.1);
+    box-shadow: 0px 0px 11px 0px rgba(9,86,147,0.75);
+    -webkit-box-shadow: 0px 0px 11px 0px rgba(9,86,147,0.75);
+    -moz-box-shadow: 0px 0px 11px 0px rgba(9,86,147,0.75);
+}
+
+#triplea_embedded_payment_form_loading_txt {
+    margin: 0 auto;
+    display: none;
+    text-align: center;
+}
+
+#triplea_embedded_payment_form_loading_txt img {
+    width: 50px;
+}
+
+.payment_box.payment_method_triplea_payment_gateway span {
+    display: block;
+}
+.triplea-span-msg{
+    font-weight: 500;
+    padding-top: 10px;
+    color: red;
+}
